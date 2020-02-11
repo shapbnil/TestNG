@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Click on Login Button=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Click on Login Button=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13210" started-at="2020-02-11T07:08:29Z" finished-at="2020-02-11T07:08:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13210" started-at="2020-02-11T07:08:29Z" finished-at="2020-02-11T07:08:43Z">
+      <class name="pages.LoginScript">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:pages.LoginScript@4501b7af]" name="setupApplication" is-config="true" duration-ms="5764" started-at="2020-02-11T07:08:29Z" finished-at="2020-02-11T07:08:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="loginToApplication()[pri:1, instance:pages.LoginScript@4501b7af]" name="loginToApplication" duration-ms="1061" started-at="2020-02-11T07:08:35Z" description="This Test Case perform valid Login" finished-at="2020-02-11T07:08:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Click on Login Button=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:pages.LoginScript@4501b7af]" name="closeApplication" is-config="true" duration-ms="681" started-at="2020-02-11T07:08:36Z" finished-at="2020-02-11T07:08:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:pages.LoginScript@4501b7af]" name="setupApplication" is-config="true" duration-ms="4476" started-at="2020-02-11T07:08:37Z" finished-at="2020-02-11T07:08:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="loginToApplication1()[pri:2, instance:pages.LoginScript@4501b7af]" name="loginToApplication1" duration-ms="514" started-at="2020-02-11T07:08:41Z" description="This Test Case perform invalid Login" finished-at="2020-02-11T07:08:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Click on Login Button=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication1 -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:pages.LoginScript@4501b7af]" name="closeApplication" is-config="true" duration-ms="677" started-at="2020-02-11T07:08:42Z" finished-at="2020-02-11T07:08:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- pages.LoginScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
